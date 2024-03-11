@@ -2,7 +2,14 @@
 module.exports = {
   content: ["./allhtml/*.html"],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        "primery":{
+          100:"#F7418F",
+          200:"#FC819E"
+        }
+      }
+    },
 
     container:{
       "center":true,
