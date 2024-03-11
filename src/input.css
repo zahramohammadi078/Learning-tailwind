@@ -3,3 +3,10 @@
 @tailwind components;
 
 @tailwind utilities;
+
+
+@layer components{
+    .section{
+        @apply  text-green-800 bg-neutral-900 font-bold;
+    }
+}
